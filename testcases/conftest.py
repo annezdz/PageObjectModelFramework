@@ -18,8 +18,9 @@ def pytest_runtest_makereport(item, call):
     return rep
 
 
-@pytest.fixture(params=['chrome', 'firefox', 'edge'], scope='class')
+@pytest.fixture(params=['chrome', 'edge'], scope='function')
 def get_browser(request):
+    global driver
     if request.param == 'chrome':
         driver = webdriver.Chrome(
             executable_path=ChromeDriverManager().install())
@@ -30,11 +31,12 @@ def get_browser(request):
         driver = webdriver.Edge(
             executable_path=EdgeChromiumDriverManager().install())
     request.cls.driver = driver
-    driver.get("http://qa.way2automation.com/")
-
+    driver.get(configReader.read_config('basic info', 'testsiteurl'))
+    driver.implicitly_wait(15)
     driver.maximize_window()
     yield driver
     driver.quit()
+
 
 @pytest.fixture()
 def log_on_failure(request, get_browser):
@@ -44,4 +46,3 @@ def log_on_failure(request, get_browser):
     if item.rep_call.failed:
         allure.attach(driver.get_screenshot_as_png(), name='do_login',
                       attachment_type=AttachmentType.PNG)
-
