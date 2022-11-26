@@ -32,17 +32,14 @@ class Test_Carwalle(BaseTest):
         if car_brand == 'Hyundai':
             home.go_to_new_cars().select_hyundai()
             title = car.get_car_title()
-            print('Car Title is: ', title)
             assert title == car_title, 'Not on the correct page as title is not matching'
         elif car_brand == 'BMW':
             home.go_to_new_cars().select_bmw()
             title = car.get_car_title()
-            print('Car Title is: ', title)
             assert title == car_title, 'Not on the correct page as title is not matching'
         elif car_brand == 'Honda':
             home.go_to_new_cars().select_honda()
             title = car.get_car_title()
-            print('Car Title is: ', title)
             assert title == car_title, 'Not on the correct page as title is not matching'
         time.sleep(3)
 
@@ -57,21 +54,18 @@ class Test_Carwalle(BaseTest):
         if car_brand == 'Hyundai':
             home.go_to_new_cars().select_hyundai()
             title = car.get_car_title()
-            print('Car Title is: ', title)
             assert title == car_title, 'Not on the correct page as title is ' \
                                        'not matching '
             car.get_car_name()
         elif car_brand == 'BMW':
             home.go_to_new_cars().select_bmw()
             title = car.get_car_title()
-            print('Car Title is: ', title)
             assert title == car_title, 'Not on the correct page as title is ' \
                                        'not matching '
             car.get_car_name()
         elif car_brand == 'Honda':
             home.go_to_new_cars().select_honda()
             title = car.get_car_title()
-            print('Car Title is: ', title)
             assert title == car_title, 'Not on the correct page as title is ' \
                                        'not matching '
             car.get_car_name()
