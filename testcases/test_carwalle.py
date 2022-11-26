@@ -5,16 +5,14 @@ import pytest
 
 from pages.CarBase import CarBase
 from pages.HomePage import HomePage
-from pages.NewCarsPage import NewCarsPage
 from testcases.BaseTest import BaseTest
 from utilities import dataProvider
 from utilities.LogUtil import Logger
-from utilities.dataProvider import get_data
 
 log = Logger(__name__, logging.INFO)
 
 
-class Test_Carwale(BaseTest):
+class Test_Carwalle(BaseTest):
 
     @pytest.mark.skip
     def test_go_to_new_car(self):

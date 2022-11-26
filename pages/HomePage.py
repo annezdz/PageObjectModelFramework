@@ -1,4 +1,5 @@
 from pages.BasePage import BasePage
+from pages.NewCarsPage import NewCarsPage
 
 
 class HomePage(BasePage):
@@ -9,6 +10,7 @@ class HomePage(BasePage):
     def go_to_new_cars(self):
         self.moveTo('newCar_XPATH')
         self.click('findNewCars_XPATH')
+        return NewCarsPage(self.driver)
 
     def go_to_compare_cars(self):
         pass

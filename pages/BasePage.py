@@ -57,7 +57,7 @@ class BasePage:
         log.logger.info("Selecting on an element: " + str(locator) +
                         " and select value " + str(value))
 
-    def moveTo(self, locator, value):
+    def moveTo(self, locator):
         global element
         if str(locator).endswith('_XPATH'):
             element = self.driver.find_element(By.XPATH,
@@ -73,5 +73,4 @@ class BasePage:
 
         action = ActionChains(self.driver)
         action.move_to_element(element).perform()
-        log.logger.info("Moving to an element: " + str(locator) +
-                        " and select value " + str(value))
+        log.logger.info("Moving to an element: " + str(locator))

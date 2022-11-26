@@ -1,25 +1,2 @@
-2022-11-24 16:40:35,645 - BasePage.py:[38] - [INFO] - Typing on an element: nam2022-11-24 16:40:36,141 - test_signup.py:[24] - [INFO] - Test do sign successfully executed
-2022-11-24 16:40:51,513 - test_signup.py:[20] - [INFO] - Test do sign started
-2022-11-24 16:40:56,174 - test_signup.py:[24] - [INFO] - Test do sign successfully executed
-2022-11-24 16:41:12,631 - test_signup.py:[20] - [INFO] - Test do sign started
-2022-11-24 16:41:17,238 - test_signup.py:[24] - [INFO] - Test do sign successfully executed
- - [INFO] - Typing on an element: city_XPATH value entered as: Blumenau
-2022-11-24 16:40:36,024 - BasePage.py:[38] - [INFO] - Typing on an element: username_XPATH value entered as: annezdz
-2022-11-24 16:40:36,077 - BasePage.py:[38] - [INFO] - Typing on an element: password_XPATH value entered as: 123456
-2022-11-24 16:40:36,140 - BasePage.py:[26] - [INFO] - Clicking on an element: submit_XPATH
-2022-11-24 16:40:51,553 - BasePage.py:[38] - [INFO] - Typing on an element: name_XPATH value entered as: Anne
-2022-11-24 16:40:51,569 - BasePage.py:[38] - [INFO] - Typing on an element: phone_XPATH value entered as: 4733234141
-2022-11-24 16:40:51,584 - BasePage.py:[38] - [INFO] - Typing on an element: email_XPATH value entered as: annezdz@hotmail.com
-2022-11-24 16:40:55,910 - BasePage.py:[56] - [INFO] - Selecting on an element: country_XPATH and select value Brazil
-2022-11-24 16:40:55,927 - BasePage.py:[38] - [INFO] - Typing on an element: city_XPATH value entered as: Blumenau
-2022-11-24 16:40:55,938 - BasePage.py:[38] - [INFO] - Typing on an element: username_XPATH value entered as: annezdz
-2022-11-24 16:40:55,948 - BasePage.py:[38] - [INFO] - Typing on an element: password_XPATH value entered as: 123456
-2022-11-24 16:40:56,173 - BasePage.py:[26] - [INFO] - Clicking on an element: submit_XPATH
-2022-11-24 16:41:12,763 - BasePage.py:[38] - [INFO] - Typing on an element: name_XPATH value entered as: Anne
-2022-11-24 16:41:12,809 - BasePage.py:[38] - [INFO] - Typing on an element: phone_XPATH value entered as: 4733234141
-2022-11-24 16:41:12,890 - BasePage.py:[38] - [INFO] - Typing on an element: email_XPATH value entered as: annezdz@hotmail.com
-2022-11-24 16:41:17,064 - BasePage.py:[56] - [INFO] - Selecting on an element: country_XPATH and select value Brazil
-2022-11-24 16:41:17,107 - BasePage.py:[38] - [INFO] - Typing on an element: city_XPATH value entered as: Blumenau
-2022-11-24 16:41:17,145 - BasePage.py:[38] - [INFO] - Typing on an element: username_XPATH value entered as: annezdz
-2022-11-24 16:41:17,192 - BasePage.py:[38] - [INFO] - Typing on an element: password_XPATH value entered as: 123456
-2022-11-24 16:41:17,238 - BasePage.py:[26] - [INFO] - Clicking on an element: submit_XPATH
+2022-11-24 22:25:41,246 - BasePage.py:[76] - [INFO] - Moving to an element: newCar_XPATH
+2022-11-24 22:25:48,149 - BasePage.py:[27] - [INFO] - Clicking on an element: findNewCars_XPATH
