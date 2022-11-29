@@ -1,0 +1,5 @@
+INFO     testcases.test_carwalle:test_carwalle.py:54 *** Inside Car Names Test ***
+INFO     pages.BasePage:BasePage.py:76 Moving to an element: newCar_XPATH
+INFO     pages.BasePage:BasePage.py:27 Clicking on an element: findNewCars_XPATH
+INFO     pages.BasePage:BasePage.py:76 Moving to an element: Bmw_XPATH
+INFO     pages.BasePage:BasePage.py:27 Clicking on an element: Bmw_XPATH

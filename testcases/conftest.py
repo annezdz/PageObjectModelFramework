@@ -18,7 +18,7 @@ def pytest_runtest_makereport(item, call):
     return rep
 
 
-@pytest.fixture(params=['chrome', 'firefox', 'edge'], scope='function')
+@pytest.fixture(params=['chrome', 'edge'], scope='function')
 def get_browser(request):
     global driver
     if request.param == 'chrome':

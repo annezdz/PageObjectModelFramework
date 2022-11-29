@@ -22,7 +22,8 @@ class Test_Carwalle(BaseTest):
         time.sleep(3)
 
     @pytest.mark.skip
-    @pytest.mark.parametrize('car_brand, car_title', dataProvider.get_data('CarTest'))
+    @pytest.mark.parametrize('car_brand, car_title',
+                             dataProvider.get_data('CarTest'))
     def test_select_cars(self, car_brand, car_title):
         log.logger.info('*** Inside Select Cars Test ***')
         home = HomePage(self.driver)
@@ -32,15 +33,18 @@ class Test_Carwalle(BaseTest):
         if car_brand == 'Hyundai':
             home.go_to_new_cars().select_hyundai()
             title = car.get_car_title()
-            assert title == car_title, 'Not on the correct page as title is not matching'
+            assert title == car_title, 'Not on the correct page as title is ' \
+                                       'not matching '
         elif car_brand == 'BMW':
             home.go_to_new_cars().select_bmw()
             title = car.get_car_title()
-            assert title == car_title, 'Not on the correct page as title is not matching'
+            assert title == car_title, 'Not on the correct page as title is ' \
+                                       'not matching '
         elif car_brand == 'Honda':
             home.go_to_new_cars().select_honda()
             title = car.get_car_title()
-            assert title == car_title, 'Not on the correct page as title is not matching'
+            assert title == car_title, 'Not on the correct page as title is ' \
+                                       'not matching '
         time.sleep(3)
 
     @pytest.mark.parametrize('car_brand, car_title',

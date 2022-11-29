@@ -1,0 +1,5 @@
+[32mINFO    [0m testcases.test_carwalle:test_carwalle.py:53 *** Inside Car Names Test ***
+[32mINFO    [0m pages.BasePage:BasePage.py:76 Moving to an element: newCar_XPATH
+[32mINFO    [0m pages.BasePage:BasePage.py:27 Clicking on an element: findNewCars_XPATH
+[32mINFO    [0m pages.BasePage:BasePage.py:76 Moving to an element: Bmw_XPATH
+[32mINFO    [0m pages.BasePage:BasePage.py:27 Clicking on an element: Bmw_XPATH

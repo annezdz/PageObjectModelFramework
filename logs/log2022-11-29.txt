@@ -1,0 +1,14 @@
+2022-11-29 13:16:04,697 - BasePage.py:[76] - [INFO] - Moving to an element: newCar_XPATH
+2022-11-29 13:16:21,703 - test_carwalle.py:[53] - [INFO] - *** Inside Car Names Test ***
+2022-11-29 13:16:39,956 - test_carwalle.py:[53] - [INFO] - *** Inside Car Names Test ***
+2022-11-29 13:17:08,986 - test_carwalle.py:[53] - [INFO] - *** Inside Car Names Test ***
+H
+2022-11-29 13:16:26,091 - BasePage.py:[76] - [INFO] - Moving to an element: newCar_XPATH
+2022-11-29 13:16:26,164 - BasePage.py:[27] - [INFO] - Clicking on an element: findNewCars_XPATH
+2022-11-29 13:16:27,020 - BasePage.py:[76] - [INFO] - Moving to an element: hyundai_XPATH
+2022-11-29 13:16:27,131 - BasePage.py:[27] - [INFO] - Clicking on an element: hyundai_XPATH
+2022-11-29 13:16:44,348 - BasePage.py:[76] - [INFO] - Moving to an element: newCar_XPATH
+2022-11-29 13:17:09,264 - BasePage.py:[76] - [INFO] - Moving to an element: newCar_XPATH
+2022-11-29 13:17:09,334 - BasePage.py:[27] - [INFO] - Clicking on an element: findNewCars_XPATH
+2022-11-29 13:17:11,078 - BasePage.py:[76] - [INFO] - Moving to an element: hyundai_XPATH
+2022-11-29 13:17:11,162 - BasePage.py:[27] - [INFO] - Clicking on an element: hyundai_XPATH
